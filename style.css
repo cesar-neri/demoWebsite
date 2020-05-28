@@ -1,0 +1,86 @@
+html{
+  background-color: dimgrey;
+}
+
+/* the body tag is for everything that is visible in the doc */
+
+body{
+  margin: 50px;
+  font-family: 'Mukta', sans-serif;
+  color: white;
+}
+
+h1{
+  font-size: 42px;
+}
+
+p{
+  font-size: 20px;
+  max-width: 800px;
+  padding-bottom: 100px;
+}
+
+.emphasis{
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.trent{
+  color: green;
+}
+
+#specialParagraph{
+  position: relative;
+  top:0px;
+  right: 0px;
+}
+
+#header{
+  width: 300px;
+  position: absolute;
+  top:0px;
+  right: 0px;
+}
+
+.photoSection{
+  position: relative;
+  /* border: 2px solid white; */
+  height: 70vw;
+}
+
+#a01{
+  position: absolute;
+  top:0px;
+  right: 0px;
+  height: 600px;
+  z-index: -1000;
+}
+
+#a02{
+  position: absolute;
+  height: 300px;
+  top: 150px;
+  right: 400px;
+}
+
+/* #b01{
+  position: absolute;
+  left: 0;
+  top: 0;
+} */
+
+#b02{
+  position: absolute;
+  left: 35%;
+  top: 35%;
+}
+
+#b03{
+  position: absolute;
+  right:0px;
+  bottom: 0px;
+}
+
+.triLayout{
+  width: 30%;
+}
